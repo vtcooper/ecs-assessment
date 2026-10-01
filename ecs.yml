@@ -1,0 +1,27 @@
+# Create the environment with:
+#   conda env create -f ecs.yml
+# Then activate it with:
+#   conda activate ecs
+# Alternatively, use mamba instead of conda.
+
+name: ecs
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - cmdstan=2.39.0
+  - cmdstanpy=1.2.1
+  - jupyterlab=4.0.11
+  - ipywidgets=8.1.8
+  - jupyterlab_widgets=3.0.16
+  - matplotlib=3.8.2
+  - numpy=1.26.4
+  - pandas=2.1.4
+  - scipy=1.11.4
+  - seaborn=0.13.2
+  - tqdm=4.67.3
+  - xarray=2025.6.1
+  - netcdf4=1.7.4
+  - h5netcdf=1.8.1
+  - h5py=3.16.0
+  - cftime=1.6.5
